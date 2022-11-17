@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>calculs</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Basic-icons.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <div class="container-fluid d-xxl-flex justify-content-xxl-center align-items-xxl-center" style="height: 100vh;">
+        <section class="position-relative py-4 py-xl-5" style="width: 100%">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-xl-6 text-center mx-auto">
+                        <h2 id="already-made" style="font-size: 50px;">1/20</h2>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div id="answer" class="col-md-6 col-xl-4 col-xxl-4 d-xxl-flex justify-content-center align-items-center align-content-center justify-content-xxl-center align-items-xxl-center">
+                        <div class="card mb-5">
+                            <div class="card-body d-flex flex-column justify-content-xxl-center"><span id="multiplication" style="font-size: 28px;">Multiplication</span>
+                                <div>
+                                    <div class="mb-3"></div>
+                                    <div class="mb-3"><input class="form-control" type="number" id="result" name="result" placeholder="resultat" autofocus="" inputmode="numeric" style="font-size: 30px;"></div>
+                                    <div class="mb-3"><button id="validate-button" class="btn btn-primary text-center d-block w-100" type="button" style="font-size: 30px;">Valider</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="responses-to-hidden" class="hidden col-md-6 col-xl-4 col-xxl-4">
+                        <div id="responses"></div>
+                        <button id="reload" class="btn btn-primary text-center d-block w-100" style="font-size: 30px;" type="button">Relancer</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

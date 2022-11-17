@@ -1,0 +1,21 @@
+.hidden {
+  display: none !important;
+}
+
+.correction {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.correct {
+  color: green;
+}
+
+.correction {
+  color: green;
+}
+
+.not-correct {
+  color: red;
+  text-decoration: line-through;
+}
