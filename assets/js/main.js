@@ -64,6 +64,7 @@ class Game {
     })
     document.getElementById("responses-to-hidden").classList.add("hidden");
     document.getElementById("answer").classList.remove("hidden");
+    this.beginTime = new Date().getTime();
   }
 
   showResults() {
@@ -94,7 +95,7 @@ class Game {
       }
       document.getElementById("responses").appendChild(pTag);
     })
-    this.alreadyMade.textContent = trueResponses + "/" + this.lastCalculs.length;
+    this.alreadyMade.textContent = trueResponses + "/" + this.lastCalculs.length + " en " + ((new Date().getTime() - this.beginTime) / 1000) + " s "
   }
 
   validate() {
