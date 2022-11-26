@@ -113,6 +113,7 @@ class Game {
     this.multiplication.textContent = calcul.toString();
     this.alreadyMade.textContent = this.lastCalculs.length + "/" + this.quantityMax;
     this.resultInput.value = "";
+    this.resultInput.focus();
   }
 }
 
